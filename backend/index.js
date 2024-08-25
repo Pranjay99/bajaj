@@ -7,7 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 app.use(cors({
-    origin: 'http://localhost:3000' // Replace with your frontend's URL
+    origin: 'https://21bcb0156.netlify.app/' // Replace with your frontend's URL
 }));
 app.use(bodyParser.json());
 
