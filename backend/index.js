@@ -7,14 +7,14 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 app.use(cors({
-    origin: 'https://21bcb0156.netlify.app/' // Replace with your frontend's URL
+    origin: 'https://21bcb0156.netlify.app' 
 }));
 app.use(bodyParser.json());
 
 // Define constants
 const full_name = "Pranjay Seksaria";
 const dob = "09/09/2002";
-const email = "Pranjayseksaria09@gmail.com";
+const email = "Pranjay.seksaria2021@vitstudent.ac.in";
 const roll_number = "21BCB0156"; // Assuming roll_number is also a constant
 
 // GET route at /bfhl
