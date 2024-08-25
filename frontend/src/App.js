@@ -18,7 +18,7 @@ const App = () => {
     const handleSubmit = async () => {
         try {
             const jsonData = JSON.parse(input);
-            const res = await axios.post('http://localhost:3001/bfhl', jsonData); // Update to match your backend URL
+            const res = await axios.post('https://bajaj-1-jjqi.onrender.com/bfhl', jsonData); // Update to match your backend URL
             console.log(res.data);
             setResponse(res.data);
             setError(null);
